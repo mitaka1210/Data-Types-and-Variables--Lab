@@ -6,7 +6,11 @@ namespace Data_Types_and_Variables___Lab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            int number = int.Parse(Console.ReadLine());
+
+            double result = number * 0.001;
+            Console.WriteLine($"{result:f2}");
         }
     }
 }
